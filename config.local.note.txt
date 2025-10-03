@@ -1,0 +1,25 @@
+This file is for local-only configuration and should NOT be committed publicly.
+
+If you later put this project under git version control, add the following patterns to .gitignore:
+
+# Local config (endpoints, test keys)
+.env.local
+config.local.js
+config.local.note.txt
+
+To override the hardcoded Apps Script endpoint without editing script.js directly, you can create a file named:
+
+config.local.js
+
+with content like:
+
+// Local override (do not commit)
+window.INDMON_ENDPOINT = 'https://script.google.com/macros/s/AKfycbwbSzsfqNLwr3OOvpjn2qw_1p_svpUZYC4MHDYOGVLONn_SkP4wisG1H04LNZ1IQo6z/exec';
+
+Then include it just before script.js in index.html if desired:
+
+<script src="config.local.js"></script>
+<script src="script.js"></script>
+
+Current production endpoint in use (fallback):
+https://script.google.com/macros/s/AKfycbwbSzsfqNLwr3OOvpjn2qw_1p_svpUZYC4MHDYOGVLONn_SkP4wisG1H04LNZ1IQo6z/exec

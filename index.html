@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IndMon.in – AI-Powered Algorithmic Trading</title>
+  <meta name="description" content="Automate your trading with AI precision. Emotion-free algorithmic trading for the Indian stock market – Nifty 50 strategies, risk management, analytics." />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="format-detection" content="telephone=no" />
+  <link rel="canonical" href="https://www.indmon.in/" />
+  <meta name="theme-color" content="#1E3A8A" />
+  <!-- Open Graph -->
+  <meta property="og:title" content="IndMon.in – AI-Powered Algorithmic Trading" />
+  <meta property="og:description" content="Automate your trading with AI precision for Nifty 50. Emotion-free, disciplined, data-driven execution." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.indmon.in/" />
+  <meta property="og:image" content="https://www.indmon.in/og-image.jpg" />
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="IndMon.in – AI-Powered Algorithmic Trading" />
+  <meta name="twitter:description" content="Automate your trading with AI precision for Nifty 50." />
+  <meta name="twitter:image" content="https://www.indmon.in/og-image.jpg" />
+  <link rel="icon" type="image/png" href="favicon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header" id="top">
+    <div class="container flex between center-v">
+      <a href="#top" class="logo brand" style="display:inline-flex;align-items:center;gap:.55rem;text-decoration:none;">
+  <img src="assets/logo.png" alt="IndMon" class="logo-img" width="140" height="40" style="height:40px;object-fit:contain;" />
+        <span class="sr-only">IndMon Home</span>
+      </a>
+      <nav class="main-nav" aria-label="Main Navigation">
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#how">How It Works</a></li>
+            <li><a href="#social">Testimonials</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <a href="#waitlist" class="btn primary small">Join Waitlist</a>
+      <button class="nav-toggle" aria-label="Toggle navigation"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section id="hero" class="hero section">
+      <div class="container grid hero-grid">
+        <div class="hero-copy">
+          <h1>Automate Your Trading with <span class="gradient-text">AI Precision</span></h1>
+          <p class="lead">IndMon.in leverages advanced algorithms to execute data-driven trades in Nifty 50, 24/7. No emotions, just disciplined, profitable trading.</p>
+          <div class="offer-ribbon" style="margin:1rem 0 1.2rem;font-size:.8rem;letter-spacing:.7px;font-weight:600;color:#F59E0B;display:inline-flex;align-items:center;gap:.5rem;">
+            <span style="padding:.35rem .7rem;border:1px solid rgba(245,158,11,.4);border-radius:999px;background:rgba(245,158,11,.1);backdrop-filter:blur(4px);">INTRO OFFER: First 100 users get 1 YEAR FREE access</span>
+          </div>
+          <div class="cta-group">
+            <a href="#waitlist" class="btn primary large">Join Waitlist →</a>
+          </div>
+          <div class="trust-badges-inline" aria-label="Trust badges">
+            <span>🔒 Bank-Level Security</span>
+            <span>⚡ Real-time Data</span>
+            <span>🧠 AI-Driven</span>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="glass panel main-dash" aria-hidden="true">
+            <div class="dash-header flex between center-v">
+              <span class="dash-title">Strategy Performance</span>
+              <span class="status-pill success">LIVE</span>
+            </div>
+            <div class="mini-chart" id="miniChart1"></div>
+            <div class="metrics-grid">
+              <div class="metric">
+                <label>P&L (Month)</label>
+                <div class="value pos">+12.4%</div>
+              </div>
+              <div class="metric">
+                <label>Win Rate</label>
+                <div class="value">67%</div>
+              </div>
+              <div class="metric">
+                <label>Sharpe</label>
+                <div class="value">1.9</div>
+              </div>
+              <div class="metric">
+                <label>Max Drawdown</label>
+                <div class="value neg">-3.2%</div>
+              </div>
+            </div>
+          </div>
+          <div class="floating-charts" aria-hidden="true">
+            <div class="glass tiny" id="spark1"></div>
+            <div class="glass tiny" id="spark2"></div>
+            <div class="glass tiny" id="spark3"></div>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-indicator" aria-hidden="true">Scroll ↓</div>
+    </section>
+
+    <!-- PROBLEM / SOLUTION -->
+    <section id="problem" class="section split">
+      <div class="container grid two">
+        <div>
+          <h2>Tired of Emotional Trading Decisions?</h2>
+          <ul class="problem-list">
+            <li>Fear & greed ruining your strategy</li>
+            <li>Missing opportunities while sleeping</li>
+            <li>Manual trading is slow & inefficient</li>
+            <li>Lack of consistent discipline</li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="accent-heading">The IndMon Solution</h3>
+          <ul class="solution-list">
+            <li>100% emotion-free algorithmic execution</li>
+            <li>24/7 automated trading</li>
+            <li>Lightning-fast trade execution</li>
+            <li>Built-in risk management</li>
+          </ul>
+          <a href="#waitlist" class="btn secondary">Get Early Access →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section id="how" class="section alt-bg">
+      <div class="container">
+        <h2>Start Trading Smarter in 3 Steps</h2>
+        <div class="steps-grid">
+          <div class="step-card glass">
+            <span class="step-number">1</span>
+            <h3>Connect Your Broker</h3>
+            <p>Secure API integration with Angel One, Zerodha.</p>
+          </div>
+          <div class="step-card glass">
+            <span class="step-number">2</span>
+            <h3>Choose Your Strategy</h3>
+            <p>Pre-built algorithms (RSI, Moving Average, Momentum) or build your own.</p>
+          </div>
+          <div class="step-card glass">
+            <span class="step-number">3</span>
+            <h3>Monitor & Profit</h3>
+            <p>Real-time dashboard, performance analytics, risk alerts.</p>
+          </div>
+        </div>
+        <div class="center mt-l">
+          <a href="#waitlist" class="btn primary">Join the Waitlist →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section id="features" class="section">
+      <div class="container">
+        <h2>Powered by Cutting-Edge Technology</h2>
+        <div class="features-grid">
+          <div class="feature-card glass">
+            <div class="icon">🤖</div>
+            <h3>AI-Powered Signals</h3>
+            <ul>
+              <li>Machine learning market analysis</li>
+              <li>Real-time opportunity detection</li>
+            </ul>
+          </div>
+          <div class="feature-card glass">
+            <div class="icon">🛡</div>
+            <h3>Risk Management</h3>
+            <ul>
+              <li>Automatic stop-loss</li>
+              <li>Position sizing & daily loss limits</li>
+            </ul>
+          </div>
+          <div class="feature-card glass">
+            <div class="icon">📊</div>
+            <h3>Live Dashboard</h3>
+            <ul>
+              <li>Real-time P&amp;L tracking</li>
+              <li>Portfolio analytics & history</li>
+            </ul>
+          </div>
+          <div class="feature-card glass">
+            <div class="icon">🔒</div>
+            <h3>Secure & Reliable</h3>
+            <ul>
+              <li>Bank-level security</li>
+              <li>SEBI-compliant data encryption</li>
+            </ul>
+          </div>
+        </div>
+        <div class="center mt-l">
+          <a href="#waitlist" class="btn secondary">Reserve Your Spot →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOCIAL PROOF -->
+    <section id="social" class="section alt-bg">
+      <div class="container">
+        <h2>Trusted by Early Adopters</h2>
+        <div class="testimonials-grid">
+          <div class="testimonial glass">
+            <p>“IndMon turned my inconsistent trading into a systematic process. +27% returns in 3 months!”</p>
+            <div class="author">— Amit S., Mumbai</div>
+          </div>
+          <div class="testimonial glass">
+            <p>“The risk management features saved me during market volatility. Worth every penny!”</p>
+            <div class="author">— Priya R., Delhi</div>
+          </div>
+        </div>
+        <div class="trust-badges mt-l">
+          <span class="badge">Secure API Integration</span>
+          <span class="badge">Real-time Data</span>
+          <span class="badge">24/7 Monitoring</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- FINAL CTA / WAITLIST FORM -->
+    <section id="waitlist" class="section final-cta">
+      <div class="container narrow">
+  <h2>Ready to Transform Your Trading?</h2>
+  <p class="lead">Join the exclusive waitlist for early access. <strong>First 100 verified users receive 1 YEAR FREE AI trading engine access.</strong></p>
+        <form id="waitlistForm" class="waitlist-form glass" novalidate>
+          <div class="form-grid">
+            <div class="field">
+              <label for="email">Email Address *</label>
+              <input type="email" id="email" name="email" required placeholder="your.email@example.com" autocomplete="email" />
+              <small class="error" data-error-for="email"></small>
+            </div>
+            <div class="field">
+              <label for="name">Full Name *</label>
+              <input type="text" id="name" name="name" required placeholder="Enter your name" autocomplete="name" />
+              <small class="error" data-error-for="name"></small>
+            </div>
+            <div class="field">
+              <label for="phone">Phone Number *</label>
+              <input type="tel" id="phone" name="phone" required placeholder="+91 98765 43210" autocomplete="tel" inputmode="tel" pattern="[+0-9\s-]{7,16}" />
+              <small class="error" data-error-for="phone"></small>
+            </div>
+            <div class="field">
+              <label for="broker">Which broker do you use? *</label>
+              <select id="broker" name="broker" required>
+                <option value="" disabled selected>Select your broker</option>
+                <option value="Angel One">Angel One</option>
+                <option value="Zerodha">Zerodha</option>
+                <option value="Upstox">Upstox</option>
+                <option value="Groww">Groww</option>
+                <option value="ICICI Direct">ICICI Direct</option>
+                <option value="HDFC Securities">HDFC Securities</option>
+                <option value="Kotak Securities">Kotak Securities</option>
+                <option value="Other">Other</option>
+              </select>
+              <small class="error" data-error-for="broker"></small>
+            </div>
+            <div class="field">
+              <label for="experience">Trading Experience *</label>
+              <select id="experience" name="experience" required>
+                <option value="" disabled selected>Select your experience</option>
+                <option value="Beginner">Beginner - New to trading</option>
+                <option value="Intermediate">Intermediate - Some experience</option>
+                <option value="Expert">Expert - Active trader</option>
+              </select>
+              <small class="error" data-error-for="experience"></small>
+            </div>
+            <!-- Honeypot (anti-bot) -->
+            <div class="field" style="position:absolute;left:-5000px;opacity:0;pointer-events:none;" aria-hidden="true">
+              <label for="website">Leave blank</label>
+              <input type="text" id="website" name="website" tabindex="-1" autocomplete="off" />
+            </div>
+          </div>
+          <button type="submit" id="waitlistSubmit" class="btn primary xl full">Claim Free 1-Year Slot →</button>
+          <div class="urgency">Offer: 100 free 1-year slots.</div>
+          <div id="formMessage" role="status" aria-live="polite"></div>
+          <p style="margin-top:1.2rem;font-size:.6rem;letter-spacing:.5px;text-align:center;color:var(--color-text-dim)">By joining you agree to receive early access & product emails. You can unsubscribe anytime.</p>
+        </form>
+      </div>
+    </section>
+
+    <!-- FAQ (basic) -->
+    <section id="faq" class="section">
+      <div class="container">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-list">
+          <details>
+            <summary>Is IndMon SEBI registered?</summary>
+            <p>We operate in compliance with SEBI guidelines and integrate only with regulated broker APIs.</p>
+          </details>
+          <details>
+            <summary>Do you execute trades automatically?</summary>
+            <p>Yes, after you authorize broker API access, strategies execute within defined risk parameters.</p>
+          </details>
+          <details>
+            <summary>Can I build custom strategies?</summary>
+            <p>Yes, a visual strategy builder and code-based advanced mode will be offered in later beta phases.</p>
+          </details>
+          <details>
+            <summary>What markets do you support?</summary>
+            <p>Initial focus: Nifty 50 equities & derivatives. Expansion planned based on user demand.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact" class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="#top" class="logo brand" style="display:inline-flex;align-items:center;gap:.55rem;text-decoration:none;">
+          <img src="assets/logo.png" alt="IndMon" class="logo-img" width="160" height="46" style="height:46px;object-fit:contain;" />
+          <span class="sr-only">IndMon Home</span>
+        </a>
+        <p class="tagline">AI-powered algorithmic trading for Indian markets.</p>
+  <p class="contact"><a href="mailto:admin@indmon.in">admin@indmon.in</a></p>
+        <div class="socials">
+          <a href="#" aria-label="Twitter" class="social">T</a>
+          <a href="https://www.linkedin.com/company/indmon/" aria-label="LinkedIn" class="social" target="_blank" rel="noopener noreferrer">in</a>
+          <a href="#" aria-label="YouTube" class="social">▶</a>
+        </div>
+      </div>
+      <div>
+        <h4>Navigate</h4>
+        <ul class="footer-links">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#how">How It Works</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#waitlist">Join Waitlist</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Legal</h4>
+        <ul class="footer-links">
+          <li><a href="#" rel="nofollow">Privacy Policy</a></li>
+          <li><a href="#" rel="nofollow">Terms of Service</a></li>
+          <li><a href="#" rel="nofollow">Disclaimer</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Stay Updated</h4>
+        <p>Join the waitlist to receive launch updates and early access benefits.</p>
+        <a href="#waitlist" class="btn secondary small full">Join Now →</a>
+      </div>
+    </div>
+    <div class="credits">© <span id="year"></span> IndMon.in. All rights reserved.</div>
+  </footer>
+
+  <!-- Demo modal removed (no video yet) -->
+
+  <!-- Success Modal -->
+  <dialog id="successModal" class="demo-modal">
+    <div class="modal-content glass">
+      <button class="modal-close" data-success-close aria-label="Close success">×</button>
+      <h3 style="margin-top:0">You're On The Waitlist 🎉</h3>
+      <p>Thanks for joining IndMon. We will contact you soon with early access instructions.</p>
+      <button class="btn primary" data-success-close>Close</button>
+    </div>
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
